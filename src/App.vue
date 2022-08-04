@@ -1,15 +1,15 @@
-<script setup lang="ts">
+<template>
+  <NavBar />
+  <SiteHeader />
+  <NewsSection />
+</template>
+<script setup lang="ts" type="module">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import NavBar from './components/NavBar.vue'
 import SiteHeader from './components/SiteHeader.vue'
+import NewsSection from './components/NewsSection.vue'
 </script>
-
-<template>
-<NavBar/>
-<SiteHeader/>
-</template>
-
 <style scoped>
 header {
   line-height: 1.5;
